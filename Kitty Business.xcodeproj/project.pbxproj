@@ -63,13 +63,13 @@
 		AF27C9F1296E974D006701C8 /* CatBreedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedCardView.swift; sourceTree = "<group>"; };
 		AF27C9F3296E9C80006701C8 /* CatBreedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedViewModel.swift; sourceTree = "<group>"; };
 		AF27C9F7296EBB41006701C8 /* CatImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImage.swift; sourceTree = "<group>"; };
-		AF4DEC60296C6C5F002C9D29 /* RateMyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateMyCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DEC60296C6C5F002C9D29 /* Kitty Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitty Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DEC63296C6C5F002C9D29 /* RateMyCatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyCatApp.swift; sourceTree = "<group>"; };
 		AF4DEC67296C6C61002C9D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4DEC6A296C6C61002C9D29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AF4DEC70296C6C61002C9D29 /* RateMyCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateMyCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DEC70296C6C61002C9D29 /* Kitty BusinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitty BusinessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DEC74296C6C61002C9D29 /* RateMyCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyCatTests.swift; sourceTree = "<group>"; };
-		AF4DEC7A296C6C61002C9D29 /* RateMyCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateMyCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DEC7A296C6C61002C9D29 /* Kitty BusinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitty BusinessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DEC7E296C6C61002C9D29 /* RateMyCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyCatUITests.swift; sourceTree = "<group>"; };
 		AF4DEC80296C6C61002C9D29 /* RateMyCatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyCatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AF4DEC96296D3F0C002C9D29 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 		AF4DEC61296C6C5F002C9D29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF4DEC60296C6C5F002C9D29 /* RateMyCat.app */,
-				AF4DEC70296C6C61002C9D29 /* RateMyCatTests.xctest */,
-				AF4DEC7A296C6C61002C9D29 /* RateMyCatUITests.xctest */,
+				AF4DEC60296C6C5F002C9D29 /* Kitty Business.app */,
+				AF4DEC70296C6C61002C9D29 /* Kitty BusinessTests.xctest */,
+				AF4DEC7A296C6C61002C9D29 /* Kitty BusinessUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -245,9 +245,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF4DEC5F296C6C5F002C9D29 /* RateMyCat */ = {
+		AF4DEC5F296C6C5F002C9D29 /* Kitty Business */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF4DEC84296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "RateMyCat" */;
+			buildConfigurationList = AF4DEC84296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "Kitty Business" */;
 			buildPhases = (
 				AF4DEC5C296C6C5F002C9D29 /* Sources */,
 				AF4DEC5D296C6C5F002C9D29 /* Frameworks */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = RateMyCat;
+			name = "Kitty Business";
 			productName = RateMyCat;
-			productReference = AF4DEC60296C6C5F002C9D29 /* RateMyCat.app */;
+			productReference = AF4DEC60296C6C5F002C9D29 /* Kitty Business.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF4DEC6F296C6C61002C9D29 /* RateMyCatTests */ = {
+		AF4DEC6F296C6C61002C9D29 /* Kitty BusinessTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF4DEC87296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "RateMyCatTests" */;
+			buildConfigurationList = AF4DEC87296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "Kitty BusinessTests" */;
 			buildPhases = (
 				AF4DEC6C296C6C61002C9D29 /* Sources */,
 				AF4DEC6D296C6C61002C9D29 /* Frameworks */,
@@ -275,14 +275,14 @@
 			dependencies = (
 				AF4DEC72296C6C61002C9D29 /* PBXTargetDependency */,
 			);
-			name = RateMyCatTests;
+			name = "Kitty BusinessTests";
 			productName = RateMyCatTests;
-			productReference = AF4DEC70296C6C61002C9D29 /* RateMyCatTests.xctest */;
+			productReference = AF4DEC70296C6C61002C9D29 /* Kitty BusinessTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AF4DEC79296C6C61002C9D29 /* RateMyCatUITests */ = {
+		AF4DEC79296C6C61002C9D29 /* Kitty BusinessUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF4DEC8A296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "RateMyCatUITests" */;
+			buildConfigurationList = AF4DEC8A296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "Kitty BusinessUITests" */;
 			buildPhases = (
 				AF4DEC76296C6C61002C9D29 /* Sources */,
 				AF4DEC77296C6C61002C9D29 /* Frameworks */,
@@ -293,9 +293,9 @@
 			dependencies = (
 				AF4DEC7C296C6C61002C9D29 /* PBXTargetDependency */,
 			);
-			name = RateMyCatUITests;
+			name = "Kitty BusinessUITests";
 			productName = RateMyCatUITests;
-			productReference = AF4DEC7A296C6C61002C9D29 /* RateMyCatUITests.xctest */;
+			productReference = AF4DEC7A296C6C61002C9D29 /* Kitty BusinessUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -321,7 +321,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF4DEC5B296C6C5F002C9D29 /* Build configuration list for PBXProject "RateMyCat" */;
+			buildConfigurationList = AF4DEC5B296C6C5F002C9D29 /* Build configuration list for PBXProject "Kitty Business" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -334,9 +334,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF4DEC5F296C6C5F002C9D29 /* RateMyCat */,
-				AF4DEC6F296C6C61002C9D29 /* RateMyCatTests */,
-				AF4DEC79296C6C61002C9D29 /* RateMyCatUITests */,
+				AF4DEC5F296C6C5F002C9D29 /* Kitty Business */,
+				AF4DEC6F296C6C61002C9D29 /* Kitty BusinessTests */,
+				AF4DEC79296C6C61002C9D29 /* Kitty BusinessUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -418,12 +418,12 @@
 /* Begin PBXTargetDependency section */
 		AF4DEC72296C6C61002C9D29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF4DEC5F296C6C5F002C9D29 /* RateMyCat */;
+			target = AF4DEC5F296C6C5F002C9D29 /* Kitty Business */;
 			targetProxy = AF4DEC71296C6C61002C9D29 /* PBXContainerItemProxy */;
 		};
 		AF4DEC7C296C6C61002C9D29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF4DEC5F296C6C5F002C9D29 /* RateMyCat */;
+			target = AF4DEC5F296C6C5F002C9D29 /* Kitty Business */;
 			targetProxy = AF4DEC7B296C6C61002C9D29 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -557,7 +557,6 @@
 				INFOPLIST_FILE = RateMyCat/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -586,7 +585,6 @@
 				INFOPLIST_FILE = RateMyCat/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -617,7 +615,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RateMyCat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RateMyCat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitty Business.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kitty Business";
 			};
 			name = Debug;
 		};
@@ -637,7 +635,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RateMyCat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RateMyCat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitty Business.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kitty Business";
 			};
 			name = Release;
 		};
@@ -680,7 +678,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF4DEC5B296C6C5F002C9D29 /* Build configuration list for PBXProject "RateMyCat" */ = {
+		AF4DEC5B296C6C5F002C9D29 /* Build configuration list for PBXProject "Kitty Business" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF4DEC82296C6C61002C9D29 /* Debug */,
@@ -689,7 +687,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF4DEC84296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "RateMyCat" */ = {
+		AF4DEC84296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "Kitty Business" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF4DEC85296C6C61002C9D29 /* Debug */,
@@ -698,7 +696,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF4DEC87296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "RateMyCatTests" */ = {
+		AF4DEC87296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "Kitty BusinessTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF4DEC88296C6C61002C9D29 /* Debug */,
@@ -707,7 +705,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF4DEC8A296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "RateMyCatUITests" */ = {
+		AF4DEC8A296C6C61002C9D29 /* Build configuration list for PBXNativeTarget "Kitty BusinessUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF4DEC8B296C6C61002C9D29 /* Debug */,
