@@ -10,8 +10,13 @@ import SwiftUI
 @main
 struct RateMyCatApp: App {
     var body: some Scene {
+        
+        let loginUserService = LoginUserService()
+        let loginViewModel = LoginViewModel(loginUserService: loginUserService)
+        
         WindowGroup {
-            ContentView()
+            LoginView(loginViewModel: loginViewModel)
         }
+        
     }
 }

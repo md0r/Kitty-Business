@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF27C9E2296DB5A0006701C8 /* APISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C9E1296DB5A0006701C8 /* APISettings.swift */; };
+		AF27C9E4296DC2AD006701C8 /* TheCatAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C9E3296DC2AD006701C8 /* TheCatAPIService.swift */; };
+		AF27C9E6296DC35C006701C8 /* CatBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C9E5296DC35C006701C8 /* CatBreed.swift */; };
+		AF27C9EA296DC81B006701C8 /* RetrieveCatBreedsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C9E9296DC81B006701C8 /* RetrieveCatBreedsService.swift */; };
+		AF27C9EC296DCA29006701C8 /* CatBreedsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C9EB296DCA29006701C8 /* CatBreedsListViewModel.swift */; };
+		AF27C9F0296E96E6006701C8 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C9EF296E96E6006701C8 /* SearchBarView.swift */; };
+		AF27C9F2296E974D006701C8 /* CatBreedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C9F1296E974D006701C8 /* CatBreedCardView.swift */; };
+		AF27C9F4296E9C81006701C8 /* CatBreedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C9F3296E9C80006701C8 /* CatBreedViewModel.swift */; };
+		AF27C9F8296EBB41006701C8 /* CatImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C9F7296EBB41006701C8 /* CatImage.swift */; };
 		AF4DEC64296C6C5F002C9D29 /* RateMyCatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC63296C6C5F002C9D29 /* RateMyCatApp.swift */; };
-		AF4DEC66296C6C5F002C9D29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC65296C6C5F002C9D29 /* ContentView.swift */; };
 		AF4DEC68296C6C61002C9D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4DEC67296C6C61002C9D29 /* Assets.xcassets */; };
 		AF4DEC6B296C6C61002C9D29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4DEC6A296C6C61002C9D29 /* Preview Assets.xcassets */; };
 		AF4DEC75296C6C61002C9D29 /* RateMyCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC74296C6C61002C9D29 /* RateMyCatTests.swift */; };
 		AF4DEC7F296C6C61002C9D29 /* RateMyCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC7E296C6C61002C9D29 /* RateMyCatUITests.swift */; };
 		AF4DEC81296C6C61002C9D29 /* RateMyCatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC80296C6C61002C9D29 /* RateMyCatUITestsLaunchTests.swift */; };
+		AF4DEC97296D3F0C002C9D29 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC96296D3F0C002C9D29 /* LoginView.swift */; };
+		AF4DEC99296D414F002C9D29 /* TextField + Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC98296D414F002C9D29 /* TextField + Styles.swift */; };
+		AF4DEC9B296D44C8002C9D29 /* Button + Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC9A296D44C8002C9D29 /* Button + Styles.swift */; };
+		AF4DEC9D296D45CD002C9D29 /* FakeBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC9C296D45CD002C9D29 /* FakeBackend.swift */; };
+		AF4DEC9F296D4A8E002C9D29 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DEC9E296D4A8E002C9D29 /* LoginViewModel.swift */; };
+		AF4DECA3296D5641002C9D29 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DECA2296D5641002C9D29 /* LoginService.swift */; };
+		AF4DECA5296D5768002C9D29 /* LoginUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DECA4296D5768002C9D29 /* LoginUserService.swift */; };
+		AF4DECA7296D68DE002C9D29 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DECA6296D68DE002C9D29 /* String + Extensions.swift */; };
+		AF4DECA9296D6C17002C9D29 /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DECA8296D6C17002C9D29 /* ErrorMessages.swift */; };
+		AF4DECAB296D6E80002C9D29 /* CatBreedsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DECAA296D6E80002C9D29 /* CatBreedsListView.swift */; };
+		AF8EF316296F0C1100479726 /* CatBreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8EF315296F0C1100479726 /* CatBreedDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +53,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF27C9E1296DB5A0006701C8 /* APISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISettings.swift; sourceTree = "<group>"; };
+		AF27C9E3296DC2AD006701C8 /* TheCatAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCatAPIService.swift; sourceTree = "<group>"; };
+		AF27C9E5296DC35C006701C8 /* CatBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreed.swift; sourceTree = "<group>"; };
+		AF27C9E9296DC81B006701C8 /* RetrieveCatBreedsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveCatBreedsService.swift; sourceTree = "<group>"; };
+		AF27C9EB296DCA29006701C8 /* CatBreedsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedsListViewModel.swift; sourceTree = "<group>"; };
+		AF27C9ED296DCCA8006701C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AF27C9EF296E96E6006701C8 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		AF27C9F1296E974D006701C8 /* CatBreedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedCardView.swift; sourceTree = "<group>"; };
+		AF27C9F3296E9C80006701C8 /* CatBreedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedViewModel.swift; sourceTree = "<group>"; };
+		AF27C9F7296EBB41006701C8 /* CatImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImage.swift; sourceTree = "<group>"; };
 		AF4DEC60296C6C5F002C9D29 /* RateMyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateMyCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DEC63296C6C5F002C9D29 /* RateMyCatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyCatApp.swift; sourceTree = "<group>"; };
-		AF4DEC65296C6C5F002C9D29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF4DEC67296C6C61002C9D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4DEC6A296C6C61002C9D29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF4DEC70296C6C61002C9D29 /* RateMyCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateMyCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +72,17 @@
 		AF4DEC7A296C6C61002C9D29 /* RateMyCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateMyCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DEC7E296C6C61002C9D29 /* RateMyCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyCatUITests.swift; sourceTree = "<group>"; };
 		AF4DEC80296C6C61002C9D29 /* RateMyCatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyCatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF4DEC96296D3F0C002C9D29 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AF4DEC98296D414F002C9D29 /* TextField + Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField + Styles.swift"; sourceTree = "<group>"; };
+		AF4DEC9A296D44C8002C9D29 /* Button + Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button + Styles.swift"; sourceTree = "<group>"; };
+		AF4DEC9C296D45CD002C9D29 /* FakeBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeBackend.swift; sourceTree = "<group>"; };
+		AF4DEC9E296D4A8E002C9D29 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AF4DECA2296D5641002C9D29 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		AF4DECA4296D5768002C9D29 /* LoginUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserService.swift; sourceTree = "<group>"; };
+		AF4DECA6296D68DE002C9D29 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		AF4DECA8296D6C17002C9D29 /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		AF4DECAA296D6E80002C9D29 /* CatBreedsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedsListView.swift; sourceTree = "<group>"; };
+		AF8EF315296F0C1100479726 /* CatBreedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +133,15 @@
 		AF4DEC62296C6C5F002C9D29 /* RateMyCat */ = {
 			isa = PBXGroup;
 			children = (
+				AF27C9ED296DCCA8006701C8 /* Info.plist */,
+				AF4DEC95296C7E86002C9D29 /* FakeBackend */,
+				AF4DEC94296C6ED5002C9D29 /* Settings */,
+				AF4DEC91296C6CF9002C9D29 /* Services */,
+				AF4DEC8D296C6C9A002C9D29 /* Extensions */,
+				AF4DEC8E296C6CA6002C9D29 /* Models */,
+				AF4DEC90296C6CB6002C9D29 /* Views */,
+				AF4DEC8F296C6CAD002C9D29 /* ViewModels */,
 				AF4DEC63296C6C5F002C9D29 /* RateMyCatApp.swift */,
-				AF4DEC65296C6C5F002C9D29 /* ContentView.swift */,
 				AF4DEC67296C6C61002C9D29 /* Assets.xcassets */,
 				AF4DEC69296C6C61002C9D29 /* Preview Content */,
 			);
@@ -125,6 +171,75 @@
 				AF4DEC80296C6C61002C9D29 /* RateMyCatUITestsLaunchTests.swift */,
 			);
 			path = RateMyCatUITests;
+			sourceTree = "<group>";
+		};
+		AF4DEC8D296C6C9A002C9D29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DEC98296D414F002C9D29 /* TextField + Styles.swift */,
+				AF4DEC9A296D44C8002C9D29 /* Button + Styles.swift */,
+				AF4DECA6296D68DE002C9D29 /* String + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AF4DEC8E296C6CA6002C9D29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF27C9E5296DC35C006701C8 /* CatBreed.swift */,
+				AF27C9F7296EBB41006701C8 /* CatImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF4DEC8F296C6CAD002C9D29 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DEC9E296D4A8E002C9D29 /* LoginViewModel.swift */,
+				AF27C9EB296DCA29006701C8 /* CatBreedsListViewModel.swift */,
+				AF27C9F3296E9C80006701C8 /* CatBreedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AF4DEC90296C6CB6002C9D29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DEC96296D3F0C002C9D29 /* LoginView.swift */,
+				AF4DECAA296D6E80002C9D29 /* CatBreedsListView.swift */,
+				AF27C9EF296E96E6006701C8 /* SearchBarView.swift */,
+				AF27C9F1296E974D006701C8 /* CatBreedCardView.swift */,
+				AF8EF315296F0C1100479726 /* CatBreedDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF4DEC91296C6CF9002C9D29 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DECA2296D5641002C9D29 /* LoginService.swift */,
+				AF4DECA4296D5768002C9D29 /* LoginUserService.swift */,
+				AF27C9E3296DC2AD006701C8 /* TheCatAPIService.swift */,
+				AF27C9E9296DC81B006701C8 /* RetrieveCatBreedsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AF4DEC94296C6ED5002C9D29 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DECA8296D6C17002C9D29 /* ErrorMessages.swift */,
+				AF27C9E1296DB5A0006701C8 /* APISettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AF4DEC95296C7E86002C9D29 /* FakeBackend */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DEC9C296D45CD002C9D29 /* FakeBackend.swift */,
+			);
+			path = FakeBackend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +372,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4DEC66296C6C5F002C9D29 /* ContentView.swift in Sources */,
 				AF4DEC64296C6C5F002C9D29 /* RateMyCatApp.swift in Sources */,
+				AF4DECA7296D68DE002C9D29 /* String + Extensions.swift in Sources */,
+				AF4DECA5296D5768002C9D29 /* LoginUserService.swift in Sources */,
+				AF27C9F4296E9C81006701C8 /* CatBreedViewModel.swift in Sources */,
+				AF27C9F8296EBB41006701C8 /* CatImage.swift in Sources */,
+				AF4DEC9D296D45CD002C9D29 /* FakeBackend.swift in Sources */,
+				AF4DECAB296D6E80002C9D29 /* CatBreedsListView.swift in Sources */,
+				AF4DECA3296D5641002C9D29 /* LoginService.swift in Sources */,
+				AF27C9F2296E974D006701C8 /* CatBreedCardView.swift in Sources */,
+				AF4DEC97296D3F0C002C9D29 /* LoginView.swift in Sources */,
+				AF4DEC9B296D44C8002C9D29 /* Button + Styles.swift in Sources */,
+				AF27C9E6296DC35C006701C8 /* CatBreed.swift in Sources */,
+				AF8EF316296F0C1100479726 /* CatBreedDetailView.swift in Sources */,
+				AF4DEC99296D414F002C9D29 /* TextField + Styles.swift in Sources */,
+				AF27C9EA296DC81B006701C8 /* RetrieveCatBreedsService.swift in Sources */,
+				AF27C9E4296DC2AD006701C8 /* TheCatAPIService.swift in Sources */,
+				AF27C9EC296DCA29006701C8 /* CatBreedsListViewModel.swift in Sources */,
+				AF4DECA9296D6C17002C9D29 /* ErrorMessages.swift in Sources */,
+				AF4DEC9F296D4A8E002C9D29 /* LoginViewModel.swift in Sources */,
+				AF27C9F0296E96E6006701C8 /* SearchBarView.swift in Sources */,
+				AF27C9E2296DB5A0006701C8 /* APISettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +554,11 @@
 				DEVELOPMENT_TEAM = 8X7UVR2M33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RateMyCat/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +583,11 @@
 				DEVELOPMENT_TEAM = 8X7UVR2M33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RateMyCat/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
