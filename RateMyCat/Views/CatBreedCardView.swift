@@ -30,18 +30,17 @@ struct CatBreedCardView: View {
              .frame(width: 80, height: 80)
              .padding(.leading, 20)
 
-            Spacer()
-             
             VStack(alignment: .leading, spacing: 5) {
                  Text(catBreed.name)
                      .lineLimit(1)
                      .font(.headline)
                      .foregroundColor(Color.teal)
+                     .frame(maxWidth: .infinity, alignment: .leading)
                  Text(catBreed.description)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .lineLimit(3)
-                        .foregroundColor(Color(uiColor: UIColor.darkGray))
-                        .multilineTextAlignment(.leading)
+                    .lineLimit(3)
+                    .foregroundColor(Color(uiColor: UIColor.darkGray))
+                    .multilineTextAlignment(.leading)
+                    .frame(maxWidth: .infinity, alignment: .leading)
              }
              .padding(.trailing, 20)
              .padding(.leading, 10)

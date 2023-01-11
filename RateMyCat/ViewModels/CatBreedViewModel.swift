@@ -34,8 +34,8 @@ struct CatBreedViewModel {
         self.catBreed.origin.lowercased()
     }
     
-    var wikipediaUrl: String {
-        self.catBreed.wikipedia_url ?? "not available"
+    var wikipediaUrl: String? {
+        self.catBreed.wikipedia_url ?? nil
     }
 
     var imageId: String? {
@@ -43,7 +43,7 @@ struct CatBreedViewModel {
     }
 
     var temperament: String {
-        self.catBreed.temperament ?? "not available"
+        self.catBreed.temperament ?? "Information not available."
     }
  
     

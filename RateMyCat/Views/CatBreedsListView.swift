@@ -63,6 +63,7 @@ struct CatBreedsListView: View {
         .toolbarBackground(Color.teal, for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
         }
+        .accentColor(Color.teal)
         
         .onAppear {
             catBreedsListViewModel.retrieveData()
