@@ -8,8 +8,6 @@
 import Foundation
 
 enum ClientSideErrorMessages: String {
-    
     case checkCredentials = "Please check username or password."
     case serverError = "Server error. Try again later."
-    
 }

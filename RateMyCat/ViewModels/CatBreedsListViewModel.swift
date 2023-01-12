@@ -92,7 +92,7 @@ class CatBreedsListViewModel: ObservableObject  {
                         
                     }
                     catch {
-                    //handle error better here in case you want to tell the user a certain image has not loaded --> currently I have a default teal placeholder for images that do not load
+                    //we can handle errors better here in case you want to tell the user a certain image has not loaded --> currently I have a default teal placeholder for images that do not load
                         print(error)
                     }
                 }

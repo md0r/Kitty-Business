@@ -14,6 +14,4 @@ protocol TheCatAPIService  {
     func retrieveResource(url: URL)  ->  AnyPublisher<[CatBreed], Error>
     func retrieveImage(url: URL) async throws -> CatImage?
     
- 
-    
 }

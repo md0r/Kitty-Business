@@ -25,12 +25,10 @@ struct LoginView: View {
                 
                 TextField("Enter username", text: $loginViewModel.username)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .accessibilityIdentifier("enterUsernameTextField")
                 
                 TextField("Enter password", text: $loginViewModel.password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .accessibilityIdentifier("enterPasswordTextField")
-               
+                    
                 Button {
                   
                     Task {
