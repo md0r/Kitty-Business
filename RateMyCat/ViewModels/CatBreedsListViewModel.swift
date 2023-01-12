@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-@MainActor
+
 class CatBreedsListViewModel: ObservableObject  {
   
     private var retrieveDataService: TheCatAPIService
@@ -21,13 +21,15 @@ class CatBreedsListViewModel: ObservableObject  {
   
     var catImages = [CatImage]() {
         didSet {
-            oldValue.forEach { catImage in
+            
+            if let latestAddedElement = catImages.last {
                 for index in 0..<catBreedsViewModels.count {
-                    if catImage.breedId == catBreedsViewModels[index].id {
-                        catBreedsViewModels[index].imageUrl = catImage.url
+                    if latestAddedElement.breedId == catBreedsViewModels[index].id {
+                        catBreedsViewModels[index].imageUrl = latestAddedElement.url
                     }
                 }
             }
+            
       }
     }
     
@@ -43,7 +45,6 @@ class CatBreedsListViewModel: ObservableObject  {
             }
         
         self.cancellable = retrieveDataService.retrieveResource(url: url)
-            
         .map { catBreeds in
             catBreeds.map { catBreed in
                 if let imageId = catBreed.reference_image_id {
@@ -71,7 +72,8 @@ class CatBreedsListViewModel: ObservableObject  {
     func retrieveCatImages(_ catImageIds: [(String, String)]) {
         
         for id in catImageIds {
-            DispatchQueue.global(qos: .userInitiated).async() {
+            
+            DispatchQueue.global(qos: .utility).async() {
                 
                 Task {
                     do {
@@ -90,6 +92,7 @@ class CatBreedsListViewModel: ObservableObject  {
                         
                     }
                     catch {
+                    //handle error better here in case you want to tell the user a certain image has not loaded --> currently I have a default teal placeholder for images that do not load
                         print(error)
                     }
                 }
