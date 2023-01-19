@@ -21,23 +21,14 @@ class LoginViewModel: ObservableObject  {
         self.loginUserService = loginUserService
     }
     
-    func validateInputAndTryToPerformLogin() async {
+    func validateInputAndTryToPerformLogin()  {
         
-        var errors = false
-        
-        if username == "" || password == "" {
-            errors = true
-        }
-        
-        //some basic validation -> we allow only alphanumerical characters for this example
         if !username.isAlphanumeric || !password.isAlphanumeric {
-            errors = true
-        }
-        
-        if(errors) {
             validationMessage = ClientSideErrorMessages.checkCredentials.rawValue
         } else {
-            await validateLogin()
+            Task {
+                await validateLogin()
+            }
         }
         
     }
@@ -47,10 +38,7 @@ class LoginViewModel: ObservableObject  {
         
         do {
           
-            let trimmedUsername = username.trimmingCharacters(in: .whitespacesAndNewlines)
-            let trimmedPassword = password.trimmingCharacters(in: .whitespacesAndNewlines)
-            
-            let userCredentials = ["username" : trimmedUsername,  "password" : trimmedPassword ]
+            let userCredentials = ["username" : username,  "password" : password ]
             let jsonData = try JSONSerialization.data(withJSONObject: userCredentials, options: .prettyPrinted)
             
             let serverResponse = try await loginUserService.loginResource(args: jsonData) 

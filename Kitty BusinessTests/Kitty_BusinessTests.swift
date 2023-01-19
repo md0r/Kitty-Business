@@ -25,7 +25,7 @@ class test_the_login_view_model: XCTestCase {
         loginViewModel.password = ""
         
         //we test the actual method of the view model, using our fake empty strings
-        await loginViewModel.validateInputAndTryToPerformLogin()
+         loginViewModel.validateInputAndTryToPerformLogin()
         
         //we assert that this class having empty logins, the validation message needs to be the ERROR message we have in settings
         XCTAssertEqual(loginViewModel.validationMessage, "Please check username or password.")

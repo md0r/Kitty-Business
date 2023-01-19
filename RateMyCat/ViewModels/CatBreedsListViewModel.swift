@@ -73,8 +73,6 @@ class CatBreedsListViewModel: ObservableObject  {
         
         for id in catImageIds {
             
-            DispatchQueue.global(qos: .utility).async() {
-                
                 Task {
                     do {
                         guard let url = URL(string: APISettings.getCatImage + id.0 + APISettings.api_keyParameter) else {
@@ -97,8 +95,6 @@ class CatBreedsListViewModel: ObservableObject  {
                     }
                 }
       
-        
-            }
         }
         
         

@@ -30,11 +30,7 @@ struct LoginView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     
                 Button {
-                  
-                    Task {
-                        await loginViewModel.validateInputAndTryToPerformLogin()
-                    }
-                   
+                    loginViewModel.validateInputAndTryToPerformLogin()
                 } label: {
                     Text("Login")
                 }
